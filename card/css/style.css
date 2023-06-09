@@ -1,0 +1,138 @@
+/*======================
+   01. Google fonts
+========================*/
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600;700&display=swap');
+
+/*======================
+   02. Basic css
+========================*/
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+strong,
+i,
+ol,
+ul,
+li,
+form,
+label,
+footer,
+header,
+menu,
+nav,
+section {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	line-height: 26px;
+	background: #ffffff;
+	color: #ffffff;
+	font-family: 'Karla', sans-serif;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+button:focus, input:focus, textarea:focus {
+	outline: 0;
+}
+
+
+.card_wrapper {
+	background: linear-gradient(180deg, #23273A 46.35%, #FA4A6F 119.01%);
+	padding: 80px 0;
+}
+
+.head_text {
+	font-size: 44px;
+	font-weight: 700;
+}
+
+.card_box {
+	box-shadow: 25.5px 44.167px 102px 0px rgb( 168, 173, 187);
+	width: 320px;
+	margin: 90px auto auto auto;
+	text-align: center;
+	border-radius: 6px;
+	transition: .3s;
+	background: linear-gradient(96.49deg, #F16262 0%, #3200FF 102.71%);
+}
+
+.card_box:hover {
+	transform: translateY(-10px);
+}
+
+.card_icon {
+	height: 90px;
+	width: 90px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	position: absolute;
+	top: -11%;
+	left: 50%;
+	transform: translateX(-50px);
+	background: linear-gradient(278.54deg, #001DAC 15.93%, #000F57 98.7%);
+	font-size: 25px;
+}
+
+.head_text_two {
+	text-transform: uppercase;
+	padding-top: 80px;
+	font-size: 21px;
+	font-weight: 700;
+}
+
+.card_box p {
+	max-width: 229px;
+	margin: 15px auto auto auto;
+}
+
+.card_ul {
+	padding: 40px 58px 40px 58px;
+	text-align: left;
+}
+
+.card_ul li {
+	font-size: 18px;
+	line-height: 35px;
+	font-weight: 700;
+	color: #ffffff;
+	display: inline-flex;
+	align-items: center;
+}
+
+.card_ul li i {
+	margin-right: 10px;
+}
+
+.card_btn {
+	font-size: 18px;
+	display: inline-flex;
+	text-transform: uppercase;
+	color: #ffffff;
+	transition: .3s;
+	padding-bottom: 40px;
+}
+
+.card_btn:hover {
+	color: orange;
+}
